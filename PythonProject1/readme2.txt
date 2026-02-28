@@ -1,0 +1,11 @@
+Regressão não linear
+O código de Python cumpriu a missão de fazer uma regressão não linear exponencial usando a fórmula y = a * e^(b*x) para conectar a Nota de Atendimento à Nota Geral. Para encontrar os melhores valores para a e b, o método principal escolhido foi o de Mínimos Quadrados Não Lineares, implementado com a função curve_fit. É importante notar que essa ferramenta de ajuste usa algoritmos avançados, como Gauss-Newton ou Levenberg-Marquardt, para fazer o trabalho pesado. Cumprindo o critério de avaliação, o resultado do ajuste foi imediatamente testado com métricas-chave: o R-quadrado (R^2) e o Erro Quadrático Médio (MSE), provando a qualidade da curva. Por fim, todo o resultado foi apresentado em um gráfico visual que mostra os dados originais e a curva de regressão traçada, fechando a análise de forma completa.
+
+Assimetria curtose:
+O código realiza uma análise descritiva da distribuição das variáveis 'Nota de Atendimento' e 'Nota Geral' por meio da Assimetria, da Curtose e de Histogramas. A Assimetria (Skewness) é calculada para quantificar a inclinação da distribuição, indicando o desvio da simetria. Em seguida, a Curtose (Kurtosis) é determinada para medir o grau de achatamento ou pico da curva de distribuição, em comparação com a distribuição normal. Complementando essa análise numérica, são gerados Histogramas que fornecem a representação visual da frequência das notas, permitindo a inspeção direta da forma da distribuição, confirmando assim os resultados obtidos pelos coeficientes de Assimetria e Curtose.
+
+Medidas de dispersão:
+O código se concentrou em calcular as medidas de dispersão das 'Notas de Atendimento' e 'Nota Geral' para entender o quão espalhados os dados estão. As métricas calculadas foram: o Desvio Padrão, que indica a dispersão média em torno da média; a Variância, que é o desvio padrão ao quadrado; o Intervalo Interquartil (IQR), que mostra a dispersão dos 50% centrais dos dados; e a Amplitude, que mede a diferença total entre o valor máximo e o mínimo.
+
+Percentil
+O código calcula os Percentis das 'Notas de Atendimento' e 'Nota Geral', que são medidas de posição para entender a distribuição dos dados. O script exibe especificamente os valores que marcam as divisões nos percentis 25°, 50° (mediana), 75°, 90° e 95°, mostrando onde se encontra cada porcentagem dos dados ordenados.
